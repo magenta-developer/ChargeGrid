@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6A92A31D28A6613A00F62EC3 /* ChargeGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A92A31C28A6613A00F62EC3 /* ChargeGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A92A32528A666A300F62EC3 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A92A32328A666A300F62EC3 /* constant.swift */; };
+		6A92A32628A666A300F62EC3 /* apiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A92A32428A666A300F62EC3 /* apiServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A92A31928A6613A00F62EC3 /* ChargeGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChargeGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A92A31C28A6613A00F62EC3 /* ChargeGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChargeGrid.h; sourceTree = "<group>"; };
+		6A92A32328A666A300F62EC3 /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		6A92A32428A666A300F62EC3 /* apiServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				6A92A31C28A6613A00F62EC3 /* ChargeGrid.h */,
+				6A92A32428A666A300F62EC3 /* apiServices.swift */,
+				6A92A32328A666A300F62EC3 /* constant.swift */,
 			);
 			path = ChargeGrid;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 				TargetAttributes = {
 					6A92A31828A6613A00F62EC3 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -129,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A92A32628A666A300F62EC3 /* apiServices.swift in Sources */,
+				6A92A32528A666A300F62EC3 /* constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 		6A92A32128A6613A00F62EC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -280,6 +290,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -288,6 +299,7 @@
 		6A92A32228A6613A00F62EC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
