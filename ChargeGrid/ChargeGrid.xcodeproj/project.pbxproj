@@ -49,11 +49,19 @@
 		6A92A31B28A6613A00F62EC3 /* ChargeGrid */ = {
 			isa = PBXGroup;
 			children = (
+				6A92A34728A6755300F62EC3 /* Classes */,
 				6A92A31C28A6613A00F62EC3 /* ChargeGrid.h */,
+			);
+			path = ChargeGrid;
+			sourceTree = "<group>";
+		};
+		6A92A34728A6755300F62EC3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
 				6A92A32428A666A300F62EC3 /* apiServices.swift */,
 				6A92A32328A666A300F62EC3 /* constant.swift */,
 			);
-			path = ChargeGrid;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
