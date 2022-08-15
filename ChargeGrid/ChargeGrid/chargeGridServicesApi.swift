@@ -1,13 +1,12 @@
 //
-//  apiServices.swift
-//  ChargeGridSDK
+//  chargeGridServicesApi.swift
+//  ChargeGrid
 //
-//  Created by DEEPAK KUMAR on 12/08/22.
+//  Created by DEEPAK KUMAR on 15/08/22.
 //
-
 
 import Foundation
-public class apiServices {
+public class chargeGridServicesApi {
  
     public static func webservicesAPICalltoGetAccessToken(baseURL:String){
 

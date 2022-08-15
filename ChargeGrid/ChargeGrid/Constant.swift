@@ -1,8 +1,8 @@
 //
 //  Constant.swift
-//  ChargeGridSDK
+//  ChargeGrid
 //
-//  Created by DEEPAK KUMAR on 29/07/22.
+//  Created by DEEPAK KUMAR on 15/08/22.
 //
 
 import Foundation
