@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
  spec.platform     = :ios, "13.0"
  
 #spec.source_files  = "ChargeGrid", "ChargeGrid/**/*"
- spec.source_files  = "ChargeGrid", "ChargeGrid/**/*.{h,m,swift}"
+ spec.source_files  = "ChargeGrid", "ChargeGrid/**/*.{h,m}"
 
 end
