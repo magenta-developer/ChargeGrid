@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6A92A31D28A6613A00F62EC3 /* ChargeGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A92A31C28A6613A00F62EC3 /* ChargeGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A92A42928AA1B9E00F62EC3 /* chargeGridServicesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A92A42828AA1B9E00F62EC3 /* chargeGridServicesApi.swift */; };
 		6A92A42B28AA1C0D00F62EC3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A92A42A28AA1C0D00F62EC3 /* Constant.swift */; };
+		6A9F091C28ABB48300C798FC /* services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9F091B28ABB48300C798FC /* services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A92A31928A6613A00F62EC3 /* ChargeGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChargeGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A92A31C28A6613A00F62EC3 /* ChargeGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChargeGrid.h; sourceTree = "<group>"; };
-		6A92A42828AA1B9E00F62EC3 /* chargeGridServicesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargeGridServicesApi.swift; sourceTree = "<group>"; };
 		6A92A42A28AA1C0D00F62EC3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6A9F091B28ABB48300C798FC /* services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		6AEB941C28AB5DA7006E1353 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6A92A42828AA1B9E00F62EC3 /* chargeGridServicesApi.swift */,
 				6A92A42A28AA1C0D00F62EC3 /* Constant.swift */,
+				6A9F091B28ABB48300C798FC /* services.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -144,8 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A92A42928AA1B9E00F62EC3 /* chargeGridServicesApi.swift in Sources */,
 				6A92A42B28AA1C0D00F62EC3 /* Constant.swift in Sources */,
+				6A9F091C28ABB48300C798FC /* services.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
