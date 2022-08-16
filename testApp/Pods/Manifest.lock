@@ -1,0 +1,16 @@
+PODS:
+  - ChargeGrid (1.0.0)
+
+DEPENDENCIES:
+  - ChargeGrid
+
+SPEC REPOS:
+  trunk:
+    - ChargeGrid
+
+SPEC CHECKSUMS:
+  ChargeGrid: bd2c64d8570a63e22717836ea4208891dfc3220b
+
+PODFILE CHECKSUM: cbe35cd2de8cba3378c117fd212c6f6bcd432080
+
+COCOAPODS: 1.11.3
